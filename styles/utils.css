@@ -58,12 +58,20 @@
   .container {
     max-width: 768px;
   }
+
+  .section {
+    margin-top: 7rem;
+  }
 }
 
 /* lg */
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
+  }
+
+  .section {
+    margin-top: 9rem;
   }
 }
 
@@ -74,7 +82,7 @@
   }
 
   .section {
-    margin-top: 10rem;
+    margin-top: 11rem;
   }
 }
 
