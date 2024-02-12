@@ -14,6 +14,11 @@
   height: 6rem;
 }
 
+.hero__wave {
+  animation: shake 0.9s ease-in-out infinite;
+  display: inline-block;
+}
+
 .hero__subtitle {
   color: var(--clr-slate600);
   font-size: var(--size-base);
@@ -81,6 +86,7 @@
     margin-top: 0rem;
     min-height: 90vh;
     gap: 2rem;
+    opacity: 0;
   }
 
   .hero__img {

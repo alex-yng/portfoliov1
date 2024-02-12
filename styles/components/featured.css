@@ -6,13 +6,19 @@
 .featured__subtitle {
   font-size: var(--size-sm);
   color: var(--clr-indigo);
-  text-transform: capitalize;
   font-weight: 400;
 }
 
 .featured__link {
   width: var(--size-2xl);
   height: var(--size-2xl);
+  transition: all 1s;
+  transform: rotate(-15deg);
+  animation: shake 2s 0.2s ease-in-out infinite;
+}
+
+.featured__link:hover {
+  scale: 120%;
 }
 
 .featured__wrapper {
@@ -30,7 +36,6 @@
 
 .featured__label {
   font-size: var(--size-base);
-  text-transform: capitalize;
   margin-bottom: 0.25em;
 }
 
@@ -42,7 +47,6 @@
 .featured__info {
   font-size: var(--size-sm);
   color: var(--clr-slate600);
-  text-transform: capitalize;
 }
 
 .featured__info-container {
@@ -125,7 +129,11 @@
 }
 
 /* md */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+  .featured {
+    opacity: 0;
+  }
+}
 
 /* lg */
 @media (min-width: 1024px) {

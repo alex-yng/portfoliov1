@@ -20,6 +20,15 @@
   margin-bottom: 1rem;
 }
 
+.contact__icon {
+  position: relative;
+  animation: ring 1.5s ease-in-out infinite;
+  text-align: center;
+  transition: all 0.3s;
+  transform: rotate(-15deg);
+  display: inline-block;
+}
+
 .contact__description {
   font-size: var(--size-sm);
   color: var(--clr-slate600);
@@ -81,7 +90,11 @@
 /* @media (min-width: 640px) {} */
 
 /* md */
-/* @media (min-width: 768px) {} */
+@media (min-width: 768px) {
+  .contact {
+    opacity: 0;
+  }
+}
 
 /* lg */
 @media (min-width: 1024px) {

@@ -48,6 +48,10 @@
   color: var(--clr-slate600);
 }
 
+.about__img-wrapper {
+  opacity: 80%;
+}
+
 /* .about__list::before {
   content: "";
   margin-left: 0.5em;
@@ -97,6 +101,7 @@
     flex-direction: row;
     justify-content: space between;
     align-items: center;
+    opacity: 0;
   }
 }
 
