@@ -12,6 +12,7 @@
 
 .work {
   text-align: center;
+  opacity: 0;
 }
 
 .work__project-title {
@@ -128,10 +129,6 @@
 
 /* md */
 @media (min-width: 768px) {
-  .work {
-    opacity: 0;
-  }
-
   .work__container {
     display: grid;
     grid-template-columns: 1fr 1fr;

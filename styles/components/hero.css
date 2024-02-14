@@ -6,6 +6,7 @@
   align-items: center;
   gap: 1rem;
   margin-top: 2rem;
+  opacity: 0;
 }
 
 .hero__img {
@@ -86,7 +87,6 @@
     margin-top: 0rem;
     min-height: 90vh;
     gap: 2rem;
-    opacity: 0;
   }
 
   .hero__img {

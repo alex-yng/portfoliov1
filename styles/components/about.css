@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  opacity: 0;
 }
 
 .about__content {
@@ -101,7 +102,6 @@
     flex-direction: row;
     justify-content: space between;
     align-items: center;
-    opacity: 0;
   }
 }
 

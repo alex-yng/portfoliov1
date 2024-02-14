@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  opacity: 0;
 }
 
 .contact__overview {
@@ -90,11 +91,7 @@
 /* @media (min-width: 640px) {} */
 
 /* md */
-@media (min-width: 768px) {
-  .contact {
-    opacity: 0;
-  }
-}
+/* @media (min-width: 768px) {} */
 
 /* lg */
 @media (min-width: 1024px) {

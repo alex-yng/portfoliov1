@@ -6,6 +6,7 @@
   padding-bottom: 2rem;
   position: relative;
   z-index: 10000;
+  opacity: 0;
 }
 
 .header__menu {

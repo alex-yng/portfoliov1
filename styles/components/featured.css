@@ -1,3 +1,7 @@
+.featured {
+  opacity: 0;
+}
+
 .featured__title {
   font-size: var(--size-2xl);
   color: var(--clr-light);
@@ -129,11 +133,7 @@
 }
 
 /* md */
-@media (min-width: 768px) {
-  .featured {
-    opacity: 0;
-  }
-}
+/* @media (min-width: 768px) {} */
 
 /* lg */
 @media (min-width: 1024px) {
