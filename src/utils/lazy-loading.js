@@ -1,4 +1,8 @@
 const lazyLoading = () => {
+  let vw = Math.max(
+    document.documentElement.clientWidth || 0,
+    window.innerWidth || 0
+  );
   const lazyImgs = document.querySelectorAll(".lazy");
   const sections = document.querySelectorAll("section");
 
@@ -9,7 +13,9 @@ const lazyLoading = () => {
         let section = entry.target;
         section.classList.toggle("animate");
         section.classList.toggle("fadeIn");
-        section.classList.toggle("animate-slow");
+        if (vw > 768) {
+          section.classList.toggle("animate-slow");
+        }
         observer.unobserve(section);
         // img finding
         let img = entry.target;
