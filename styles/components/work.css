@@ -54,6 +54,7 @@
 
 .work__project-btn {
   font-size: var(--size-sm);
+  margin: 0 0.5em;
 }
 
 .work__project:not(:last-child) {

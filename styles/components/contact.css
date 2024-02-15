@@ -58,6 +58,7 @@
 
 .contact__social-link {
   text-decoration: none;
+  font-size: var(--size-base);
 }
 
 /* xs */
@@ -71,6 +72,11 @@
   }
 
   .contact__socials-list {
+    font-size: var(--size-lg);
+  }
+
+  .contact__social-link {
+    text-decoration: none;
     font-size: var(--size-lg);
   }
 
@@ -109,6 +115,11 @@
     font-size: var(--size-xl);
   }
 
+  .contact__social-link {
+    text-decoration: none;
+    font-size: var(--size-xl);
+  }
+
   .contact__description {
     font-size: var(--size-lg);
   }
@@ -126,6 +137,21 @@
 
   .contact__title {
     font-size: var(--size-5xl);
+  }
+
+  .contact__socials-subtitle {
+    font-size: var(--size-4xl);
+  }
+
+  .contact__socials-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: var(--size-2xl);
+  }
+
+  .contact__social-link {
+    text-decoration: none;
+    font-size: var(--size-2xl);
   }
 
   .contact__description {
